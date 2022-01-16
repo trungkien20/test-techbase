@@ -1,0 +1,219 @@
+{
+	"id": "69ad3c0a-3c1a-e313-abf0-50adf619ca31",
+	"name": "Techbase_test",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"owner": "1263390",
+			"lastUpdatedBy": "1263390",
+			"lastRevision": 20744071910,
+			"folder": null,
+			"id": "1016d299-c9f5-1a82-1902-256705c8fc45",
+			"name": "User",
+			"description": "",
+			"variables": null,
+			"auth": null,
+			"events": null,
+			"order": [
+				"f953fad6-5005-b5e1-510a-5e0417bc15f3",
+				"cf14cf14-b50b-b204-755c-062869cee593",
+				"f75d2857-ddb4-fc55-176f-1188603cae03",
+				"5d2c01f4-5ed9-ebcd-591e-dd5e4e3cf451",
+				"0902b16d-11ae-2174-7ee9-07ee89bba70c"
+			],
+			"folders_order": [],
+			"collectionId": "69ad3c0a-3c1a-e313-abf0-50adf619ca31"
+		}
+	],
+	"folders_order": [
+		"1016d299-c9f5-1a82-1902-256705c8fc45"
+	],
+	"timestamp": 1641837984046,
+	"owner": "1263390",
+	"public": false,
+	"requests": [
+		{
+			"id": "0902b16d-11ae-2174-7ee9-07ee89bba70c",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlhdCI6MTY0MjMyNzkxMiwiZXhwIjoxNjQyOTMyNzEyfQ.72gB1Y3T34nZi-hsCr89ZFighhrS54nzYMGEch3azYY\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlhdCI6MTY0MjMyNzkxMiwiZXhwIjoxNjQyOTMyNzEyfQ.72gB1Y3T34nZi-hsCr89ZFighhrS54nzYMGEch3azYY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/api/v1/users?limit=2",
+			"folder": "1016d299-c9f5-1a82-1902-256705c8fc45",
+			"queryParams": [
+				{
+					"key": "limit",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1642328307745,
+			"name": "http://localhost:8081/api/v1/users copy copy copy",
+			"description": "create user",
+			"collectionId": "69ad3c0a-3c1a-e313-abf0-50adf619ca31",
+			"responses": [],
+			"rawModeData": "{\n  \"email\": \"abc@abc7.com\",\n  \"password\": \"abc123\",\n  \"name\": \"abc\"\n}"
+		},
+		{
+			"id": "5d2c01f4-5ed9-ebcd-591e-dd5e4e3cf451",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlhdCI6MTY0MjMyNzkxMiwiZXhwIjoxNjQyOTMyNzEyfQ.72gB1Y3T34nZi-hsCr89ZFighhrS54nzYMGEch3azYY\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlhdCI6MTY0MjMyNzkxMiwiZXhwIjoxNjQyOTMyNzEyfQ.72gB1Y3T34nZi-hsCr89ZFighhrS54nzYMGEch3azYY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/api/v1/users/1",
+			"folder": "1016d299-c9f5-1a82-1902-256705c8fc45",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1642327926352,
+			"name": "http://localhost:8081/api/v1/users copy copy",
+			"description": "create user",
+			"collectionId": "69ad3c0a-3c1a-e313-abf0-50adf619ca31",
+			"responses": [],
+			"rawModeData": "{\n  \"email\": \"abc@abc7.com\",\n  \"password\": \"abc123\",\n  \"name\": \"abc\"\n}"
+		},
+		{
+			"id": "cf14cf14-b50b-b204-755c-062869cee593",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraWVubnQiLCJpYXQiOjE2MjkzMDk4ODQsImV4cCI6MTYyOTkxNDY4NH0.CVN1LIqjbnF4lLBtxHJZ23Dkk4MEBkUfJQKQ8gmeE_M\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraWVubnQiLCJpYXQiOjE2MjkzMDk4ODQsImV4cCI6MTYyOTkxNDY4NH0.CVN1LIqjbnF4lLBtxHJZ23Dkk4MEBkUfJQKQ8gmeE_M",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/api/v1/users",
+			"folder": "1016d299-c9f5-1a82-1902-256705c8fc45",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1642308635090,
+			"name": "http://localhost:8081/api/v1/users",
+			"description": "create user",
+			"collectionId": "69ad3c0a-3c1a-e313-abf0-50adf619ca31",
+			"responses": [],
+			"rawModeData": "{\n  \"email\": \"abc@abc7.com\",\n  \"password\": \"abc123\",\n  \"name\": \"abc\"\n}"
+		},
+		{
+			"id": "f75d2857-ddb4-fc55-176f-1188603cae03",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraWVubnQiLCJpYXQiOjE2MjkzMDk4ODQsImV4cCI6MTYyOTkxNDY4NH0.CVN1LIqjbnF4lLBtxHJZ23Dkk4MEBkUfJQKQ8gmeE_M\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraWVubnQiLCJpYXQiOjE2MjkzMDk4ODQsImV4cCI6MTYyOTkxNDY4NH0.CVN1LIqjbnF4lLBtxHJZ23Dkk4MEBkUfJQKQ8gmeE_M",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/api/v1/users/1",
+			"folder": "1016d299-c9f5-1a82-1902-256705c8fc45",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1642321779956,
+			"name": "http://localhost:8081/api/v1/users copy",
+			"description": "create user",
+			"collectionId": "69ad3c0a-3c1a-e313-abf0-50adf619ca31",
+			"responses": [],
+			"rawModeData": "{\n  \"email\": \"abc@abc7.com\",\n  \"password\": \"abc123\",\n  \"name\": \"abc\"\n}"
+		},
+		{
+			"id": "f953fad6-5005-b5e1-510a-5e0417bc15f3",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/login",
+			"folder": "1016d299-c9f5-1a82-1902-256705c8fc45",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1642328589328,
+			"name": "http://localhost:8081/login",
+			"description": "user login",
+			"collectionId": "69ad3c0a-3c1a-e313-abf0-50adf619ca31",
+			"responses": [],
+			"rawModeData": "{\n    \"email\": \"kiennt85@gmail.com\",\n    \"password\": \"abc123\"\n}"
+		}
+	]
+}
