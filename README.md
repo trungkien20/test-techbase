@@ -26,8 +26,6 @@ When above steps are successful, we can access:
 
 "http://localhost:8888/index.php" (Username: root ; Password => no need, it's empty)   => phpmyadmin tool is used to handle db mysql
 
-"http://localhost:8081/docs/index.html"  => List API are used in project
-
 Unitest:
 ```bash
 $ docker-compose exec php-fpm sh -c "composer test"
